@@ -1,0 +1,13 @@
+# Content Concepts
+
+This folder stores fully developed content concept documents.
+
+Each concept is saved here after running `/develop`:
+- `content/concepts/{id}-{slug}.md`
+
+Full concept documents include:
+- Strategic positioning
+- Title options with viral elements
+- Thumbnail concepts (YouTube)
+- Hook strategies
+- CTA paths

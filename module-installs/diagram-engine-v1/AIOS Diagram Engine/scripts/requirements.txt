@@ -1,0 +1,2 @@
+# No Python dependencies required.
+# This module uses D2 (a standalone CLI tool) — not Python.

@@ -1,0 +1,64 @@
+# ── Secrets & Environment ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+credentials/
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ── Node / Convex ─────────────────────────────────────────────────────────────
+node_modules/
+package-lock.json
+
+# Convex generated files (auto-created by `npx convex dev`)
+convex/_generated/
+
+# Convex local state (machine-specific)
+.convex/
+
+# ── Databases & Data files ────────────────────────────────────────────────────
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/command/
+
+# ── Generated outputs (runtime artefacts, not source) ─────────────────────────
+outputs/
+thumbnails/
+diagrams/
+
+# ── Zip archives (source modules distributed as zips) ─────────────────────────
+*.zip
+
+# ── Junk / OS / Editor files ──────────────────────────────────────────────────
+# Windows reserved name (created by a mis-routed command)
+nul
+# Botched pip install artifact
+=3.4
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
+
+# JetBrains IDEs
+.idea/
+
+# VS Code
+.vscode/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/

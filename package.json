@@ -1,0 +1,11 @@
+{
+  "name": "aios-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "convex": "convex"
+  },
+  "dependencies": {
+    "convex": "^1.35.1"
+  }
+}
